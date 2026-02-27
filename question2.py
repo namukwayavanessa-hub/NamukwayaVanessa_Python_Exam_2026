@@ -1,4 +1,6 @@
 #question2 (i)
+#consider the data types . keyboard details requires manual input of the data .
+#Avarage_mark is the sum of items divided by their number.
 Student_Name= input('enter student name :')
 Student_Number= input('enter student number:')
 Mathermatics=int(input('enter mathematics marks:'))
@@ -12,7 +14,8 @@ print("Data systems : " ,Datasystems)
 print("Wed Development : " ,Web_Development)
 print(f"The Avarage_mark is {Avarage_mark:.2f}")
 
-#question2(ii)
+#question2(ii) #
+#we use float for the inputs as thge data type
 Distance_travelled=float(input('enter the distance travelled :'))
 Fuel_used=float(input('enter the fuel used : '))
 FuelEfficiency = Distance_travelled / Fuel_used
@@ -22,6 +25,7 @@ print(f"The car's fuel efficiency is {FuelEfficiency:.3f}")
 
 
 #question2(iii)
+#for range we start with the start number and add a one to the end number to exclude the all the numbers in that range required.
 for number in range(1 , 51):
       if number % 3==0:
             print (number)
